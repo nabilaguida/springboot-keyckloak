@@ -8,13 +8,12 @@ import org.keycloak.admin.client.KeycloakBuilder;
 public class KeycloakConfig {
 
     static Keycloak keycloak = null;
-    final static String serverUrl = "http://localhost:8380";
+    final static String serverUrl = "http://localhost:8080";
     public final static String realm = "cardilla";
     final static String clientId = "cardilla_spring_boot";
-    final static String clientSecret = "TYfKeUpOVhKZATUaC3UkVksuDeEcIX85";
-    final static String userName = "root";
-    final static String password = "root";
-
+    final static String clientSecret = "DNSYFJe4U2dmiXx6R7KMoXN2XnlEbeC0";
+    final static String userName = "admin";
+    final static String password = "admin";
 
     public KeycloakConfig() {
     }
